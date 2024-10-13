@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 自定义滚动条样式 */
+::-webkit-scrollbar {
+  height: 1px; /* 滚动条宽度 */
+}
+
+::-webkit-scrollbar-track {
+  background: #ddd; /* 滚动条轨道颜色 */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ddd; /* 滚动条颜色 */
+}
